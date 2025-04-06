@@ -96,7 +96,13 @@ function RootComponent() {
           </main>
           <footer className="supports-[backdrop-filter]:bg-background/60 border-t py-12 backdrop-blur">
             <div className="container mx-auto px-4 text-center text-gray-400">
-              <p>Lithium Weather &copy;</p>
+              <a
+                href="https://github.com/Coder-Blue/lithium-pwa"
+                target="_blank"
+                className="hover:underline"
+              >
+                <p>Lithium Weather &copy;</p>
+              </a>
             </div>
           </footer>
         </div>

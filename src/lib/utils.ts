@@ -29,7 +29,7 @@ export function seo({
     { name: "og:site_name", content: title },
     { name: "og:title", content: title },
     { name: "og:description", content: description },
-    { name: "og:url", content: "http://localhost:3000" },
+    { name: "og:url", content: "https://lithium-pwa.vercel.app" },
     { name: "og:locale", content: "vi_VN" },
     ...(image
       ? [

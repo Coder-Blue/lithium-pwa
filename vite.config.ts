@@ -6,7 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA, type VitePWAOptions } from "vite-plugin-pwa";
 
 const PWAConfig: Partial<VitePWAOptions> = {
-  includeAssets: ["favicon.ico", "robots.txt", "apple-touch-icon.png"],
+  includeAssets: [
+    "/favicon/favicon.ico",
+    "robots.txt",
+    "/pwa/apple-touch-icon.png",
+  ],
   registerType: "autoUpdate",
   manifest: {
     name: "Lithium Weather",

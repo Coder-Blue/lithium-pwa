@@ -54,4 +54,10 @@ pnpm dev
 
 - Details are in the docs I linked, follow the guiding to further developments.
 
-- contact for supporting: [email](mailto:trananhquan1009@gmail.com)
+# Donate
+
+- tác giả thiếu thốn, donate đi <3
+
+- liên hệ hỗ trợ: [email](mailto:trananhquan1009@gmail.com)
+
+![BIDV](https://github.com/Coder-Blue/argon-note/blob/main/donation/IMG_4049.jpg?raw=true)

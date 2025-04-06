@@ -33,12 +33,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
       links: [
         { rel: "author", href: "https://github.com/Coder-Blue" },
-        {
-          rel: "icon",
-          type: "image/png",
-          sizes: "48x48",
-          href: "/favicon/favicon.ico",
-        },
+        { rel: "icon", href: "/favicon/favicon.ico" },
         { rel: "shortcut icon", href: "/favicon/favicon-16x16.png" },
         {
           rel: "icon",

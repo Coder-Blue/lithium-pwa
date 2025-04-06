@@ -55,7 +55,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         {
           rel: "apple-touch-icon",
           sizes: "180x180",
-          href: "/pwa/apple-touch-icon.png",
+          href: "/pwa/apple-touch-icon-180x180.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "64x64",
+          href: "/pwa/pwa-64x64.png",
         },
         {
           rel: "icon",
@@ -67,7 +73,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           rel: "icon",
           type: "image/png",
           sizes: "512x512",
-          href: "/pwa/pwa-192x192.png",
+          href: "/pwa/pwa-512x512.png",
         },
       ],
     }),

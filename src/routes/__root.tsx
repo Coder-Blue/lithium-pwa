@@ -3,6 +3,7 @@ import {
   createRootRouteWithContext,
   HeadContent,
   Outlet,
+  Scripts,
 } from "@tanstack/react-router";
 import { Analytics } from "@vercel/analytics/react";
 import type { QueryClient } from "@tanstack/react-query";
@@ -109,6 +110,7 @@ function RootComponent() {
         </div>
         <Toaster richColors />
       </ThemeProvider>
+      <Scripts />
       <Analytics />
       <ReactQueryDevtools initialIsOpen={false} />
       <TanStackRouterDevtools position="bottom-left" />

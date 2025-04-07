@@ -25,7 +25,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         ...seo({
           title: "Lithium Weather",
           description:
-            "Dự đoán thời tiết với những công nghệ web nhanh nhất như React 19, TanStack Router/Query, Vite Rolldown và PWA",
+            "Dự báo thời tiết với những công nghệ web nhanh nhất như React 19, TanStack Router/Query, Vite Rolldown và PWA",
           keywords:
             "Lithium,Weather,Tracking,App,PWA,Vite,React,Noah,Rolldown,TanStack",
           image: "https://i.ibb.co/dwWTx6B6/lithium-og.png",

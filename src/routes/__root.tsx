@@ -28,7 +28,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             "Dự đoán thời tiết với những công nghệ web nhanh nhất như React 19, TanStack Router/Query, Vite Rolldown và PWA",
           keywords:
             "Lithium,Weather,Tracking,App,PWA,Vite,React,Noah,Rolldown,TanStack",
-          image: "https://i.ibb.co/DDrZyNy8/lithium-og.png",
+          image: "https://i.ibb.co/dwWTx6B6/lithium-og.png",
+          url: "https://lithium-pwa.vercel.app",
         }),
       ],
 
